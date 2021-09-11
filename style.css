@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  vertical-align: baseline;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #8C3B70 0%, #592A44 100%);
+}
+
+.container {
+  width: 500px;
+  text-align: center;
+}
+
+.info {
+  margin-bottom: 32px;
+}
+
+.info h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+
+.info h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-top: 4px;
+}
+
+.btn {
+  display: flex;
+  margin: 8px 10px;
+  padding: 20px 68px;
+  border-radius: 8px;
+}
+
+.animate-scale {
+  transition-duration: .3s;
+  transition-property: transform;
+}
+
+.animate-scale:active, .animate-scale:focus, .animate-scale:hover {
+  transform: scale(1.1);
+}
+
+.btn .icon {
+  color: white;
+}
+
+.icon svg{
+  height: 18px;
+}
+
+.btn .title {
+  flex-grow: 1;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bg-youtube {
+  background-color: #FF0000;
+}
+
+.bg-facebook {
+  background-color: #3B5998;
+}
+
+.bg-instagram {
+  background-color: transparent;
+  background-image: linear-gradient(145deg, #962FBF 0%, #f2295b 100%);
+}
